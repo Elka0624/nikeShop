@@ -1,0 +1,30 @@
+.NavInfo{
+    width: 100%;
+    background: #ffd200;
+    padding: 5px 0px;
+}
+.info{
+    justify-content: space-between;
+    align-items: center;
+}
+.ul{
+    column-gap: 15px;
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+    color: #606266;
+    justify-content: space-around;
+    align-items: center;
+}
+.select{
+    font-size: 15px;
+    border: none !important;
+    background: transparent;
+    outline: none !important;
+    color: #606266;
+}
+option{
+    border: none;
+    outline: none;
+}

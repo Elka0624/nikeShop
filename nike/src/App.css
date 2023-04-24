@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: Poppins;
 }
 .container{
     width: 80%;
@@ -13,4 +13,12 @@
 }
 .flex{
     display: flex;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.icon{
+    font-size: 16px;
+
 }
