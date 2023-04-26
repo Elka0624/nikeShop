@@ -1,0 +1,18 @@
+.ona{
+    width: 100%;
+    height: 300px;
+    
+}
+.car{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+}
+.imgCarousel{
+    width: 500px;
+    height: 500px;
+}
+
+.ona ul {
+    display: none
+}
