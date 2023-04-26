@@ -1,4 +1,88 @@
+.searchPanel{
+    justify-content: space-between;
+    align-items: center;
+}
+.searchLeft{
+    justify-content: space-between;
+    align-items: center;
+}
+.searchLeft input{
+    width: 400px;
+    padding: 10px 10px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    background: rgb(238, 238, 238);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 15px;
+}
+.searchLeft input::placeholder{
+    font-size: 15px;
+}
+.SearchBtn{
+    cursor: pointer;
+    width: 40px;
+    height: 47px;
+    border: none;
+    outline: none;
+    padding-top: 5px;
+    background: rgb(238, 238, 238);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.SearchBtn .icon{
+    font-size: 22px;
+    color: #303493;
+}
+
+
 .searchLink img{
     max-width: 200px;
     width: 100%;
 }
+.searchRight{
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+}
+.searchRight .icon{
+    font-size: 28px;
+    color: #303493;
+}
+.linkk{
+    color: #303493;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+.mainPanel{
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.divMain{
+    background: rgb(245, 245, 245);
+    padding: 8px 15px;
+    border-radius: 15px;
+}
+.divMain:hover{
+    background: rgb(206, 206, 206);
+}
+.dicLink{
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 5px;
+    color: #606266;
+    text-decoration: none;
+}
+.linkIcon{
+    font-size: 20px;
+}
+.fromControl{
+    width: 200px;
+}
+
