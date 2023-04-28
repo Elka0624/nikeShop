@@ -1,7 +1,6 @@
 .ona{
     width: 100%;
-    height: 300px;
-    
+    margin-bottom: 50px;
 }
 .car{
     width: 100%;
@@ -15,4 +14,7 @@
 
 .ona ul {
     display: none
+}
+.ona p{
+    display: none;
 }
