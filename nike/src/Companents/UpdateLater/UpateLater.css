@@ -1,0 +1,126 @@
+.updateInfo{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.updateInfo .icon{
+    font-size: 13px;
+}
+.updateCard .iconn{
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    font-size: 20px;
+}
+.updateCard .iconn:hover{
+    background: rgb(83, 83, 83);
+    padding: 2px 2px;
+    border-radius: 5px;
+    color: white;
+}
+.updateP{
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5px;
+}
+.updateCards{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.updateCard{
+    width: 300px;
+    height: auto;
+    background: rgb(238, 238, 238);
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 15px;
+}
+.headerImg{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+.updateCardFlag{
+    width: 30px;
+    position: absolute;
+    right: 35px;
+}
+.updateCard .icon{
+    font-size: 25px;
+    color: red;
+    display: inline-block;
+}
+.updateCardCounter{
+    display: inline-block;
+    position: absolute;
+    right: 235px;
+    bottom: 49px;
+    font-size: 13px;
+}
+.updateCardName{
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+    margin-bottom: 2px;
+}
+.updateCardInfo{
+    font-size: 15px;
+    color: gray;
+}
+.updateCardSize{
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 70px;
+}
+.updateCardQuality{
+    display: inline-block;
+    background: #0055f1;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 15px;
+}
+.updateCardPrice{
+    width: 120px;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    background: #00cd89;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.btnGroup{
+    justify-content: space-between;
+}
+.btnSell{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 2px 5px;
+    border: 2px solid #0055f1;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+
+}
+.btnBuy{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 2px 5px;
+    border: 2px solid #0055f1;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+
+}
+.allBtn:hover{
+    background: #0055f1;
+    color: white;
+}
+.allBtn .icon{
+    color: rgb(44, 44, 44);
+}
+.allBtn:hover .icon{
+    background: #0055f1;
+    color: white;
+}
