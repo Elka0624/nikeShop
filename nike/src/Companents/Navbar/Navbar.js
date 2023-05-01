@@ -157,7 +157,7 @@ return (
                             </Link>
                         </option>
                         <option value={110}>
-                            <Link to='Naskilar'>
+                            <Link to='../../Page/NaskiPage/NaskiPage.js'>
                                 Naskilar
                             </Link>
                         </option>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './NavInfo.css';
 import {AiOutlineEye, AiOutlineStar, AiOutlineUser} from 'react-icons/ai'
-import {BrowserRouter, Route, Link} from 'react-router-dom'
+import {BrowserRouter, Route, Link} from 'react-router-dom';
 
 const NavInfo = () => {
 return (

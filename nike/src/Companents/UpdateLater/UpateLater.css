@@ -26,10 +26,11 @@
 .updateCards{
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 50px;
 }
 .updateCard{
-    width: 300px;
+    width: 250px;
     height: auto;
     background: rgb(238, 238, 238);
     padding: 10px 10px;
@@ -54,8 +55,8 @@
 .updateCardCounter{
     display: inline-block;
     position: absolute;
-    right: 235px;
-    bottom: 49px;
+    left: 37px;
+    bottom: 48px;
     font-size: 13px;
 }
 .updateCardName{
@@ -94,7 +95,7 @@
 .btnSell{
     justify-content: space-between;
     align-items: center;
-    font-size: 15px;
+    font-size: 13px;
     padding: 2px 5px;
     border: 2px solid #0055f1;
     outline: none;
@@ -105,7 +106,7 @@
 .btnBuy{
     justify-content: space-between;
     align-items: center;
-    font-size: 15px;
+    font-size: 13px;
     padding: 2px 5px;
     border: 2px solid #0055f1;
     outline: none;
@@ -116,11 +117,14 @@
 .allBtn:hover{
     background: #0055f1;
     color: white;
+    cursor: pointer;
 }
 .allBtn .icon{
+    font-size: 15px;
     color: rgb(44, 44, 44);
 }
 .allBtn:hover .icon{
+    cursor: pointer;
     background: #0055f1;
     color: white;
 }

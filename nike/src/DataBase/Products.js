@@ -1,10 +1,55 @@
+import nikeLab1 from '.././Assent/nikLab1.jpg';
+import nikeLab2 from '.././Assent/nikLab2.jpg';
+import nikeLab3 from '.././Assent/nikLab3.jpg';
+import nikeLab4 from '.././Assent/nikLa4.jpg';
+import nikeLab5 from '.././Assent/nikLab5.jpg';
+import nikeLab6 from '.././Assent/nikLab6.jpg';
+// neseliC
+import neseliC1 from '.././Assent/neseliC1.jpg'
+import neseliC2 from '.././Assent/neseliC2.jpg'
+import neseliC3 from '.././Assent/neseliC3.jpg'
+import neseliC4 from '.././Assent/neseliC4.jpg'
+import neseliC5 from '.././Assent/neseliC5.jpg'
+import neseliC6 from '.././Assent/neseliC6.jpg'
+import neseliC7 from '.././Assent/neseliC7.jpg'
+// hohe
+import Hohe1 from '.././Assent/Hohe1.jpg'
+import Hohe2 from '.././Assent/Hohe2.jpg'
+import Hohe3 from '.././Assent/Hohe3.jpg'
+import Hohe4 from '.././Assent/Hohe4.jpg'
+// mc
+import mc1 from '.././Assent/mc1.png';
+import mc2 from '.././Assent/mc2.png';
+import mc3 from '.././Assent/mc3.png';
+import mc4 from '.././Assent/mc4.png';
+import mc5 from '.././Assent/mc5.png';
+import mc6 from '.././Assent/mc6.png';
+// baina
+import baina1 from '.././Assent/baina1.png'
+import baina2 from '.././Assent/baina2.png'
+import baina3 from '.././Assent/baina3.png'
+import baina4 from '.././Assent/baina4.png'
+import baina5 from '.././Assent/baina5.png'
+// rick
+import rick1 from '.././Assent/rick1.jpg';
+import rick2 from '.././Assent/rick2.jpg';
+import rick3 from '.././Assent/rick3.jpg';
+import rick4 from '.././Assent/rick4.jpg';
+import rick5 from '.././Assent/rick5.jpg';
+import rick6 from '.././Assent/rick6.jpg';
+import rick7 from '.././Assent/rick7.jpg';
+import rick8 from '.././Assent/rick8.jpg';
+import rick9 from '.././Assent/rick9.jpg';
+import rick10 from '.././Assent/rick10.jpg';
+import rick11 from '.././Assent/rick11.jpg';
+
 const Products = [
     // naskilar 
     //nikeLab start
     {
         id: 1,
         name: 'Nike Lab',
-        image: 'src//',
+        image: nikeLab1,
         size: '34 - 48',
         price: '20.000',
         date: '23.04.2023',
@@ -19,7 +64,7 @@ const Products = [
     {
         id: 2,
         name: 'Nike Lab',
-        image: 'src//',
+        image: nikeLab2,
         size: '34 - 48',
         price: '20.000',
         date: '23.04.2023',
@@ -34,7 +79,7 @@ const Products = [
     {
         id: 3,
         name: 'Nike Lab',
-        image: 'src//',
+        image: nikeLab3,
         size: '34 - 48',
         price: '20.000',
         date: '23.04.2023',
@@ -49,7 +94,7 @@ const Products = [
     {
         id: 4,
         name: 'Nike Lab',
-        image: 'src//',
+        image: nikeLab4,
         size: '34 - 48',
         price: '20.000',
         date: '23.04.2023',
@@ -64,7 +109,7 @@ const Products = [
     {
         id: 5,
         name: 'Nike Lab',
-        image: 'src//',
+        image: nikeLab5,
         size: '34 - 48',
         price: '20.000',
         date: '23.04.2023',
@@ -79,7 +124,7 @@ const Products = [
     {
         id: 6,
         name: 'Nike Lab',
-        image: 'src//',
+        image: nikeLab6,
         size: '34 - 48',
         price: '20.000',
         date: '23.04.2023',
@@ -94,7 +139,7 @@ const Products = [
     {
         id: 7,
         name: 'Nike Lab',
-        image: 'src//',
+        image: nikeLab3,
         size: '34 - 48',
         price: '20.000',
         date: '23.04.2023', 
@@ -110,7 +155,7 @@ const Products = [
     {
         id: 8,
         name: 'Neseli Coraplar',
-        image: 'src//',
+        image: neseliC1,
         size: '37 - 44',
         price: '18.000',
         date: '23.03.2023',
@@ -125,7 +170,7 @@ const Products = [
     {
         id: 9,
         name: 'Neseli Coraplar',
-        image: 'src//',
+        image: neseliC2,
         size: '37 - 44',
         price: '18.000',
         date: '23.03.2023',
@@ -140,7 +185,7 @@ const Products = [
     {
         id: 10,
         name: 'Neseli Coraplar',
-        image: 'src//',
+        image: neseliC3,
         size: '37 - 44',
         price: '18.000',
         date: '23.03.2023',
@@ -155,7 +200,7 @@ const Products = [
     {
         id: 11,
         name: 'Neseli Coraplar',
-        image: 'src//',
+        image: neseliC4,
         size: '37 - 44',
         price: '18.000',
         date: '23.03.2023',
@@ -170,7 +215,7 @@ const Products = [
     {
         id: 12,
         name: 'Neseli Coraplar',
-        image: 'src//',
+        image: neseliC5,
         size: '37 - 44',
         price: '18.000',
         date: '23.03.2023',
@@ -185,7 +230,7 @@ const Products = [
     {
         id: 13,
         name: 'Neseli Coraplar',
-        image: 'src//',
+        image: neseliC6,
         size: '37 - 44',
         price: '18.000',
         date: '23.03.2023',
@@ -200,7 +245,7 @@ const Products = [
     {
         id: 14,
         name: 'Neseli Coraplar',
-        image: 'src//',
+        image: neseliC7,
         size: '37 - 44',
         price: '18.000',
         date: '23.03.2023',
@@ -215,7 +260,7 @@ const Products = [
     {
         id: 15,
         name: 'Neseli Coraplar',
-        image: 'src//',
+        image: neseliC3,
         size: '37 - 44',
         price: '18.000',
         date: '23.03.2023',
@@ -231,7 +276,7 @@ const Products = [
         {
             id: 16,
             name: 'Hohe',
-            image: 'src//',
+            image: Hohe1,
             size: '37 - 44',
             price: '20.000',
             date: '23.02.2023',
@@ -246,7 +291,7 @@ const Products = [
         {
             id: 17,
             name: 'Hohe',
-            image: 'src//',
+            image: Hohe2,
             size: '37 - 44',
             price: '20.000',
             date: '23.02.2023',
@@ -261,7 +306,7 @@ const Products = [
         {
             id: 18,
             name: 'Hohe',
-            image: 'src//',
+            image: Hohe3,
             size: '37 - 44',
             price: '20.000',
             date: '23.02.2023',
@@ -276,7 +321,7 @@ const Products = [
         {
             id: 19,
             name: 'Hohe',
-            image: 'src//',
+            image: Hohe4,
             size: '37 - 44',
             price: '20.000',
             date: '23.02.2023',
@@ -291,7 +336,7 @@ const Products = [
         {
             id: 20,
             name: 'Hohe',
-            image: 'src//',
+            image: Hohe2,
             size: '37 - 44',
             price: '20.000',
             date: '23.02.2023',
@@ -307,7 +352,7 @@ const Products = [
     {
         id: 21,
         name: 'MC',
-        image: 'src//',
+        image: mc1,
         size: '34 - 48',
         price: '20.000',
         date: '23.01.2023',
@@ -322,7 +367,7 @@ const Products = [
     {
         id: 22,
         name: 'MC',
-        image: 'src//',
+        image: mc2,
         size: '34 - 48',
         price: '20.000',
         date: '23.01.2023',
@@ -337,7 +382,7 @@ const Products = [
     {
         id: 23,
         name: 'MC',
-        image: 'src//',
+        image: mc3,
         size: '34 - 48',
         price: '20.000',
         date: '23.01.2023',
@@ -352,7 +397,7 @@ const Products = [
     {
         id: 24,
         name: 'MC',
-        image: 'src//',
+        image: mc4,
         size: '34 - 48',
         price: '20.000',
         date: '23.01.2023',
@@ -367,7 +412,7 @@ const Products = [
     {
         id: 25,
         name: 'MC',
-        image: 'src//',
+        image: mc5,
         size: '34 - 48',
         price: '20.000',
         date: '23.01.2023',
@@ -382,7 +427,7 @@ const Products = [
     {
         id: 26,
         name: 'MC',
-        image: 'src//',
+        image: mc6,
         size: '34 - 48',
         price: '20.000',
         date: '23.01.2023',
@@ -397,7 +442,7 @@ const Products = [
     {
         id: 27,
         name: 'MC',
-        image: 'src//',
+        image: mc3,
         size: '34 - 48',
         price: '20.000',
         date: '23.01.2023',
@@ -412,7 +457,7 @@ const Products = [
     {
         id: 28,
         name: 'MC',
-        image: 'src//',
+        image: mc4,
         size: '34 - 48',
         price: '20.000',
         date: '23.01.2023',
@@ -430,7 +475,7 @@ const Products = [
     {
         id: 29,
         name: 'Baina.Socks',
-        image: 'src//',
+        image: baina1,
         size: '25 - 28',
         price: '20.000',
         date: '20.03.2023',
@@ -444,7 +489,7 @@ const Products = [
     {
         id: 30,
         name: 'Baina.Socks',
-        image: 'src//',
+        image: baina2,
         size: '25 - 28',
         price: '20.000',
         date: '20.03.2023',
@@ -458,7 +503,7 @@ const Products = [
     {
         id: 31,
         name: 'Baina.Socks',
-        image: 'src//',
+        image: baina3,
         size: '25 - 28',
         price: '20.000',
         date: '20.03.2023', 
@@ -472,7 +517,7 @@ const Products = [
     {
         id: 32,
         name: 'Baina.Socks',
-        image: 'src//',
+        image: baina4,
         size: '25 - 28',
         price: '20.000',
         date: '20.03.2023',
@@ -486,7 +531,7 @@ const Products = [
     {
         id: 33,
         name: 'Baina.Socks',
-        image: 'src//',
+        image: baina5,
         size: '25 - 28',
         price: '20.000',
         date: '20.03.2023',
@@ -502,7 +547,7 @@ const Products = [
     {
         id: 34,
         name: 'Rick And Morty',
-        image: 'src//',
+        image: rick1,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -516,7 +561,7 @@ const Products = [
     {
         id: 35,
         name: 'Rick And Morty',
-        image: 'src//',
+        image: rick2,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -530,7 +575,7 @@ const Products = [
     {
         id: 36,
         name: 'Rick And Morty',
-        image: 'src//',
+        image: rick3,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -544,7 +589,7 @@ const Products = [
     {
         id: 37,
         name: 'Rick And Morty',
-        image: 'src//',
+        image: rick4,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -558,7 +603,7 @@ const Products = [
     {
         id: 38,
         name: 'Rick And Morty',
-        image: 'src//',
+        image: rick5,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -572,7 +617,7 @@ const Products = [
     {
         id: 39,
         name: 'Rick And Morty',
-        image: 'src//',
+        image: rick6,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -586,7 +631,7 @@ const Products = [
     {
         id: 40,
         name: 'Rick And Morty',
-        image: 'src//',
+        image: rick7,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -600,7 +645,7 @@ const Products = [
     {
         id: 41,
         name: 'Rick And Morty',
-        image: 'src//',
+        image: rick8,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -616,7 +661,7 @@ const Products = [
     {
         id: 42,
         name: 'Penguin Mill',
-        image: 'src//',
+        image: rick9,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -630,7 +675,7 @@ const Products = [
     {
         id: 43,
         name: 'Penguin Mill',
-        image: 'src//',
+        image: rick10,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
@@ -644,7 +689,7 @@ const Products = [
     {
         id: 44,
         name: 'Penguin Mill',
-        image: 'src//',
+        image: rick11,
         size: '40 - 45',
         price: '20.000',
         date: '27.04.2023',
