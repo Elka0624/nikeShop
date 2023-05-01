@@ -10,7 +10,6 @@ import mc1 from '../../Assent/Mc.png'
 
 const UpdateLater = () => {
 return (
-    <BrowserRouter>
         <div className='container'>
             <div className="UpdateLaterDiv">
                 <div className="updateInfo flex">
@@ -83,7 +82,6 @@ return (
                 </div>
             </div>
         </div>
-    </BrowserRouter>
 )
 }
 

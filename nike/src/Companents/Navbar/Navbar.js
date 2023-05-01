@@ -11,7 +11,6 @@ import {FormControl, InputLabel, NativeSelect} from '@mui/material'
 
 const Navbar = () => {
 return (
-    <BrowserRouter>
         <div className='navbar'>
             <div className="container">
                 <div className="searchPanel flex">
@@ -197,7 +196,7 @@ return (
             </div>
         </div>
     </div>
-    </BrowserRouter>
+    
 )
 }
 

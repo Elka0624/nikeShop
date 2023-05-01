@@ -5,7 +5,7 @@ import {BrowserRouter, Route, Link} from 'react-router-dom';
 
 const NavInfo = () => {
 return (
-    <BrowserRouter>
+
         <div className='NavInfo'>
             <div className="container">
                 <div className="info flex">
@@ -38,7 +38,7 @@ return (
                 </div>
             </div>
         </div>
-    </BrowserRouter>
+
 )
 }
 

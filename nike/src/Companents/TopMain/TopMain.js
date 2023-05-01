@@ -13,7 +13,6 @@ const TopMain = () => {
 return (
     <div>
         <div className="container">
-            <BrowserRouter>
                 <div className="topMain flex">
                     <div className="divgreen">
                         <Link to='#' className='topLink'>
@@ -83,7 +82,6 @@ return (
                         </Link>
                     </div>
                 </div>
-            </BrowserRouter>
         </div>
     </div>
 )
