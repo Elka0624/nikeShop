@@ -1,11 +1,11 @@
 import React from 'react'
 
-const NaskiPage = () => {
+const Krasofka = () => {
 return (
     <div>
-        
+    
     </div>
 )
 }
 
-export default NaskiPage
+export default Krasofka

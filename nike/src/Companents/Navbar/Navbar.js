@@ -1,15 +1,21 @@
 import React from 'react'
-import logo from '../../Assent/logo.jpg'
-import {BrowserRouter, Route, Link} from 'react-router-dom'
+import logo from '../../Assent/logo.jpg';
+import {BrowserRouter, Route, Link, Outlet} from 'react-router-dom';
+// import { useHistory } from 'react-router-dom'
 import './Navbar.css'
 import {AiOutlineHeart} from 'react-icons/ai';
 import {SlBasket} from 'react-icons/sl'
 import {ImSearch} from 'react-icons/im'
-import {RxDashboard} from 'react-icons/rx'
 import {GiArmoredPants, GiRunningShoe, GiTShirt, GiFootTrip, GiClothes} from 'react-icons/gi'
 import {FormControl, InputLabel, NativeSelect} from '@mui/material'
 
 const Navbar = () => {
+    // let history = useHistory();
+
+    // function handleChangeSelect(value) {
+    //     history.push(`/?location=${value}`);;
+    // }
+
 return (
         <div className='navbar'>
             <div className="container">
@@ -33,99 +39,38 @@ return (
                     </div>
                 </div>
             <div className="mainPanel flex">
-                {/* <select name="main" id="">
-                    <option value="Barcha kategoriyalar">
-                        <Link to='#'>
-                                Barcha kategoriyalar
-                        </Link>
-                    </option>
-                    <option value="Ayollar kiyimlari">
-                        <Link to='#'>
-                            Ayollar kiyimlari
-                        </Link>
-                    </option>
-                    <option value="Ayollar Oyoq kiyimlari">
-                        <Link to='#'>
-                            Ayollar Oyoq Kiyimi
-                        </Link>
-                    </option>
-                    <option value="Erkaklar Kiyimi">
-                        <Link to='#'>
-                            Erkaklar Kiyimi
-                        </Link>
-                    </option>
-                    <option value="Ko'ylaklar">
-                        <Link to='#'>
-                            Ko'ylaklar
-                        </Link>
-                    </option>
-                    <option value="Krasofkalar">
-                        <Link to='#'>
-                            Krasofkalar
-                        </Link>
-                    </option>
-                    <option value="Makaslar">
-                        <Link to='#'>
-                            Makaslar
-                        </Link>
-                    </option>
-                    <option value="Fudbolkalar">
-                        <Link to='#'>
-                            Fudbolkalar
-                        </Link>
-                    </option>
-                    <option value="Shimlar">
-                        <Link to='#'>
-                            Shimlar
-                        </Link>
-                    </option>
-                    <option value="Tapichkalar">
-                        <Link to='#'>
-                            Tapichkalar
-                        </Link>
-                    </option>
-                    <option value="Naskilar">
-                        <Link to='#'>
-                            Naskilar
-                        </Link>
-                    </option>
-                    <option value="Sport Kiyimlar">
-                        <Link to='#'>
-                            Sport Kiyimlar
-                        </Link>
-                    </option>
-                </select> */}
                 <FormControl className='fromControl'>
                     <InputLabel variant="standard" htmlFor="uncontrolled-native">
                         Toifalar
                     </InputLabel>
                         <NativeSelect
-                            defaultValue={10}
+                            // onChange={event => handleChangeSelect(event.target.value)}
+                            defaultValue={'Barcha kategoriyalar'}
                             inputProps={{
                                 name: 'age',
                                 id: 'uncontrolled-native',
                         }}>
-                        <option value={10}>
+                        <option value={'Barcha kategoriyalar'}>
                             <Link to='Barcha kategoriyalar'>
                                 Barcha kategoriyalar
                             </Link>
                         </option>
-                        <option value={20}>
+                        <option value={'Ayollar kiyimlari'}>
                             <Link to='Ayollar kiyimlari'>
                                 Ayollar kiyimlari
                             </Link>
                         </option>
-                        <option value={30}>
+                        <option value={'Ayollar Oyoq kiyimlari'}>
                             <Link to='Ayollar Oyoq kiyimlari'>
                                 Ayollar Oyoq kiyimlari
                             </Link>
                         </option>
-                        <option value={40}>
+                        <option value={'Erkaklar Kiyimi'}>
                             <Link to='Erkaklar Kiyimi'>
                                 Erkaklar Kiyimi
                             </Link>
                         </option>
-                        <option value={50}>
+                        <option value={'Ko`ylaklar'}>
                             <Link to='Ko`ylaklar'>
                                 Ko`ylaklar
                             </Link>
@@ -155,8 +100,8 @@ return (
                                 Tapichkalar
                             </Link>
                         </option>
-                        <option value={110}>
-                            <Link to='../../Page/NaskiPage/NaskiPage.js'>
+                        <option value={'/naski'}>
+                            <Link to='/naski'>
                                 Naskilar
                             </Link>
                         </option>
@@ -184,7 +129,7 @@ return (
                     </Link>
                 </div>
                 <div className="divMain">
-                    <Link to='#' className='dicLink flex'>
+                    <Link to='/naski' className='dicLink flex'>
                         <GiFootTrip className='linkIcon' /> Ayollar Oyoq Kiyimi
                     </Link>
                 </div>
@@ -195,8 +140,8 @@ return (
                 </div>
             </div>
         </div>
+        <Outlet />
     </div>
-    
 )
 }
 
