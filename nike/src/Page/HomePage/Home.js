@@ -11,6 +11,7 @@ import nikeD4 from '../../Assent/nikeDiscount4.jpg'
 import nikeD5 from '../../Assent/nikeDiscount5.jpg'
 import nikeD6 from '../../Assent/nikeDiscount6.jpg'
 import UpdateLaterDiscount from '../../Companents/UpdateLater/UpdateLaterDiscount'
+import BrandSlider from '../../Companents/BrandSlider/BrandSlider'
 
 const Home = () => {
 return (
@@ -22,6 +23,7 @@ return (
         <UpdateLater />
         <DemoCarousel imgOne={nikeD1} imgTwo={nikeD2} imgThere={nikeD3}/>
         <UpdateLaterDiscount />
+        <BrandSlider />
     </div>
 )
 }
