@@ -13,15 +13,15 @@ class DemoCarousel extends Component {
                 <div className="ona">
                     <Carousel autoPlay infiniteLoop showArrows={true} className='car'>
                         <div>
-                            <img src={krasofka_runnig} className='imgCarousel'/>
+                            <img src={this.props.imgOne} className='imgCarousel'/>
                             <p className="legend">Legend 1</p>
                         </div>
                         <div>
-                            <img src={krasofka_pegaus} className='imgCarousel'/>
+                            <img src={this.props.imgThere} className='imgCarousel'/>
                             <p className="legend">Legend 2</p>
                         </div>
                         <div>
-                            <img src={krasofka_jordan} className='imgCarousel'/>
+                            <img src={this.props.imgTwo} className='imgCarousel'/>
                             <p className="legend">Legend 3</p>
                         </div>
                     </Carousel>

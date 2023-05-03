@@ -1,13 +1,15 @@
 import './App.css'
 import Home from './Page/HomePage/Home';
 import { Route, Link, Routes, Router} from 'react-router-dom';
-import NaskiPage from './Page/NaskiPage/NaskiPage';
+import Naski from './Page/NaskiPage/Naski';
+
 
 function App() {
   return (
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/naski' element={<NaskiPage />} />
+          <Route path='/naski' element={<Naski />} />
+          
         </Routes>
   );
 }

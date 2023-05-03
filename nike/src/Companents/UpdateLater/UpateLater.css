@@ -128,3 +128,19 @@
     background: #0055f1;
     color: white;
 }
+/* discount sahifasi */
+
+.discountSpan{
+    font-size: 50px;
+    color: #0055f1;
+}
+del{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+.updateInfo .infoLink{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    list-style: none;
+}

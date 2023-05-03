@@ -8,12 +8,12 @@ import test from '../../Assent/nike_krasofka_Pegaus.jpg';
 import flag from '../../Assent/flagUzbekistan.png'
 import mc1 from '../../Assent/Mc.png'
 
-const UpdateLater = () => {
+const UpdateLaterDiscount = () => {
 return (
         <div className='container'>
             <div className="UpdateLaterDiv">
                 <div className="updateInfo flex">
-                    <h2>So`ngi Kelgan Mahsulotlar</h2>
+                    <h2> <del><span className='discountSpan'>30% </span></del> Chegirmadagi Mahsulotlarimiz ! </h2>
                     <Link to='#' className='infoLink'>
                         <p className='flex updateP'>Hammasini Ko`rish <AiOutlineRight className='icon'/> </p>
                     </Link>
@@ -85,4 +85,4 @@ return (
 )
 }
 
-export default UpdateLater
+export default UpdateLaterDiscount

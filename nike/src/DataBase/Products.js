@@ -1,7 +1,7 @@
 import nikeLab1 from '.././Assent/nikLab1.jpg';
 import nikeLab2 from '.././Assent/nikLab2.jpg';
 import nikeLab3 from '.././Assent/nikLab3.jpg';
-import nikeLab4 from '.././Assent/nikLa4.jpg';
+import nikeLab4 from '.././Assent/nikLab4.jpg';
 import nikeLab5 from '.././Assent/nikLab5.jpg';
 import nikeLab6 from '.././Assent/nikLab6.jpg';
 // neseliC
@@ -11,7 +11,7 @@ import neseliC3 from '.././Assent/neseliC3.jpg'
 import neseliC4 from '.././Assent/neseliC4.jpg'
 import neseliC5 from '.././Assent/neseliC5.jpg'
 import neseliC6 from '.././Assent/neseliC6.jpg'
-import neseliC7 from '.././Assent/neseliC7.jpg'
+import neseliC7 from '../Assent/neseliC7.jpg'
 // hohe
 import Hohe1 from '.././Assent/Hohe1.jpg'
 import Hohe2 from '.././Assent/Hohe2.jpg'
@@ -19,17 +19,17 @@ import Hohe3 from '.././Assent/Hohe3.jpg'
 import Hohe4 from '.././Assent/Hohe4.jpg'
 // mc
 import mc1 from '.././Assent/mc1.png';
-import mc2 from '.././Assent/mc2.png';
-import mc3 from '.././Assent/mc3.png';
-import mc4 from '.././Assent/mc4.png';
-import mc5 from '.././Assent/mc5.png';
-import mc6 from '.././Assent/mc6.png';
+import mc2 from '.././Assent/mc2.jpg';
+import mc3 from '.././Assent/mc3.jpg';
+import mc4 from '.././Assent/mc4.jpg';
+import mc5 from '.././Assent/mc5.jpg';
+import mc6 from '.././Assent/mc6.jpg';
 // baina
 import baina1 from '.././Assent/baina1.png'
 import baina2 from '.././Assent/baina2.png'
-import baina3 from '.././Assent/baina3.png'
-import baina4 from '.././Assent/baina4.png'
-import baina5 from '.././Assent/baina5.png'
+import baina3 from '.././Assent/baina3.jpg'
+import baina4 from '.././Assent/baina4.jpg'
+import baina5 from '.././Assent/baina5.jpg'
 // rick
 import rick1 from '.././Assent/rick1.jpg';
 import rick2 from '.././Assent/rick2.jpg';
@@ -59,6 +59,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 96,
     },
 
     {
@@ -74,6 +75,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 42,
     },
 
     {
@@ -89,6 +91,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 81,
     },
 
     {
@@ -104,6 +107,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 13,
     },
 
     {
@@ -119,6 +123,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 75,
     },
 
     {
@@ -134,6 +139,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 64,
     },
 
     {
@@ -149,6 +155,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 46,
     },
     // nikeLab end
     //neseliCoraplar start
@@ -165,6 +172,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 96,
     },
 
     {
@@ -180,6 +188,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 76,
     },
 
     {
@@ -195,6 +204,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 99,
     },
 
     {
@@ -210,6 +220,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 96,
     },
 
     {
@@ -225,6 +236,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 106,
     },
 
     {
@@ -240,6 +252,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 96,
     },
 
     {
@@ -255,6 +268,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 36,
     },
 
     {
@@ -270,6 +284,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 66,
     },
         //neseliCoraplar end
         //Hohe start
@@ -286,6 +301,7 @@ const Products = [
             humans: 'Male, Female',
             katigoriya: 'Naskilar',
             quality: 'Orginal',
+            like: 89,
         },
 
         {
@@ -301,6 +317,7 @@ const Products = [
             humans: 'Male, Female',
             katigoriya: 'Naskilar',
             quality: 'Orginal',
+            like: 22,
         },
 
         {
@@ -316,6 +333,7 @@ const Products = [
             humans: 'Male, Female',
             katigoriya: 'Naskilar',
             quality: 'Orginal',
+            like: 55,
         },
 
         {
@@ -331,6 +349,7 @@ const Products = [
             humans: 'Male, Female',
             katigoriya: 'Naskilar',
             quality: 'Orginal',
+            like: 43,
         },
 
         {
@@ -346,6 +365,7 @@ const Products = [
             humans: 'Male, Female',
             katigoriya: 'Naskilar',
             quality: 'Orginal',
+            like: 76,
         },
         //hohe end 
         //MC start
@@ -362,6 +382,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 98,
     },
 
     {
@@ -377,6 +398,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 79,
     },
 
     {
@@ -392,6 +414,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 16,
     },
 
     {
@@ -407,6 +430,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 91,
     },
 
     {
@@ -422,6 +446,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 73,
     },
 
     {
@@ -437,6 +462,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 62,
     },
 
     {
@@ -452,6 +478,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 47,
     },
 
     {
@@ -467,6 +494,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 34,
     },
 
     //MC end
@@ -485,6 +513,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 90,
     },
     {
         id: 30,
@@ -499,6 +528,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 103,
     },
     {
         id: 31,
@@ -513,6 +543,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 74,
     },
     {
         id: 32,
@@ -527,6 +558,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 82,
     },
     {
         id: 33,
@@ -541,6 +573,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal', 
+        like: 96,
     },
     //baina end
     //rick and morty
@@ -557,6 +590,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 10,
     },
     {
         id: 35,
@@ -571,6 +605,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 35,
     },
     {
         id: 36,
@@ -585,6 +620,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 79,
     },
     {
         id: 37,
@@ -599,6 +635,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 27,
     },
     {
         id: 38,
@@ -613,6 +650,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 33,
     },
     {
         id: 39,
@@ -627,6 +665,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 34,
     },
     {
         id: 40,
@@ -641,6 +680,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 16,
     },
     {
         id: 41,
@@ -655,6 +695,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 57,
     },
     //Rick And Morty END
     //Penguin start
@@ -671,6 +712,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 78,
     },
     {
         id: 43,
@@ -685,6 +727,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 95,
     },
     {
         id: 44,
@@ -699,6 +742,7 @@ const Products = [
         humans: 'Male, Female',
         katigoriya: 'Naskilar',
         quality: 'Orginal',
+        like: 67,
     },
 
     //Naski end 
