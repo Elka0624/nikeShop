@@ -13,6 +13,7 @@ import nikeD6 from '../../Assent/nikeDiscount6.jpg'
 import UpdateLaterDiscount from '../../Companents/UpdateLater/UpdateLaterDiscount'
 import BrandSlider from '../../Companents/BrandSlider/BrandSlider'
 
+
 const Home = () => {
 return (
     <div>

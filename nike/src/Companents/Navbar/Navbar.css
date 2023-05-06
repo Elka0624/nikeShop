@@ -85,4 +85,11 @@
 .fromControl{
     width: 200px;
 }
+.navbar{
+    margin-bottom: 20px;
+}
+.activeNav{
+    background-color: #303493;
+}
+
 

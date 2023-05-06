@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import NavInfo from '../../Companents/NavInfo/NavInfo'
 import Navbar from '../../Companents/Navbar/Navbar';
 import ProductNaski from '../../ProductsMap/ProductsNaski';

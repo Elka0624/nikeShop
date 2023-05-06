@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, useState, useEffect} from 'react'
 import logo from '../../Assent/logo.jpg';
 import {BrowserRouter, Route, Link, Outlet} from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
@@ -16,8 +16,21 @@ const Navbar = () => {
         navigate(`${value}`);;
     }
 
+    // navbar windowda ishlashi
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if(window.scrollY >= 80){
+            setNavbar(true)
+        }else{
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground)
+
 return (
-        <div className='navbar'>
+        <div className={navbar ? 'navbar activeNav' : 'navbar'}>
             <div className="container">
                 <div className="searchPanel flex">
                     <div className="searchLeft flex">
