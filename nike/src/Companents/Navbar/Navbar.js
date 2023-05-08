@@ -16,21 +16,22 @@ const Navbar = () => {
         navigate(`${value}`);;
     }
 
-    // navbar windowda ishlashi
-    const [navbar, setNavbar] = useState(false);
+    // // navbar windowda ishlashi
+    // const [navbar, setNavbar] = useState(false);
 
-    const changeBackground = () => {
-        if(window.scrollY >= 80){
-            setNavbar(true)
-        }else{
-            setNavbar(false)
-        }
-    }
+    // const changeBackground = () => {
+    //     if(window.scrollY >= 80){
+    //         setNavbar(true)
+    //     }else{
+    //         setNavbar(false)
+    //     }
+    // }
 
-    window.addEventListener('scroll', changeBackground)
+    // window.addEventListener('scroll', changeBackground)
+    // {navbar ? 'navbar activeNav' : 'navbar'}
 
 return (
-        <div className={navbar ? 'navbar activeNav' : 'navbar'}>
+        <div className='navbar'>
             <div className="container">
                 <div className="searchPanel flex">
                     <div className="searchLeft flex">
@@ -58,33 +59,33 @@ return (
                     </InputLabel>
                         <NativeSelect
                             onChange={event => handleChangeSelect(event.target.value)}
-                            defaultValue={'Barcha kategoriyalar'}
+                            defaultValue={Link.value}
                             inputProps={{
                                 name: 'age',
                                 id: 'uncontrolled-native',
                         }}>
                         <option value={'/BarchaKategoriyalar'}>
-                            <Link to='/BarchaKategoriyalar'>
+                            <Link to='/barchaKategoriyalar'>
                                 Barcha kategoriyalar
                             </Link>
                         </option>
-                        <option value={'/AyollarKiyimlari'}>
-                            <Link to='/AyollarKiyimlari'>
+                        <option value={'/ayollar-kiyimi'}>
+                            <Link to='/ayollar-kiyimi'>
                                 Ayollar kiyimlari
                             </Link>
                         </option>
                         <option value={'/AyollarOyoqKiyimlari'}>
-                            <Link to='/AyollarOyoqKiyimlari'>
+                            <Link to='/ayollar-oyoq-kiyimlari'>
                                 Ayollar Oyoq kiyimlari
                             </Link>
                         </option>
                         <option value={'/ErkaklarKiyimi'}>
-                            <Link to='/ErkaklarKiyimi'>
+                            <Link to='/erkaklar-kiyimi'>
                                 Erkaklar Kiyimi
                             </Link>
                         </option>
                         <option value={'/Ko`ylaklar'}>
-                            <Link to='/Ko`ylaklar'>
+                            <Link to='/ko`ylaklar'>
                                 Ko`ylaklar
                             </Link>
                         </option>
@@ -94,22 +95,22 @@ return (
                             </Link>
                         </option>
                         <option value={'/Makaslar'}>
-                            <Link to='/Makaslar'>
+                            <Link to='/makaslar'>
                                 Makaslar
                             </Link>
                         </option>
                         <option value={'/Fudbolkalar'}>
-                            <Link to='/Fudbolkalar'>
+                            <Link to='/fudbolkalar'>
                                 Fudbolkalar
                             </Link>
                         </option>
                         <option value={'/Shimlar'}>
-                            <Link to='/Shimlar'>
+                            <Link to='/shimlar'>
                                 Shimlar
                             </Link>
                         </option>
                         <option value={'/Tapichkalar'}>
-                            <Link to='/Tapichkalar'>
+                            <Link to='/tapichkalar'>
                                 Tapichkalar
                             </Link>
                         </option>
@@ -119,7 +120,7 @@ return (
                             </Link>
                         </option>
                         <option value={'/SportKiyimlar'}>
-                            <Link to='/SportKiyimlar'>
+                            <Link to='/sport-kiyimlar'>
                                 Sport Kiyimlar <GiClothes className='linkIcon' />
                             </Link>
                         </option>

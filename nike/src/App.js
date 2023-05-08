@@ -2,6 +2,7 @@ import './App.css'
 import Home from './Page/HomePage/Home';
 import { Route, Link, Routes, Router} from 'react-router-dom';
 import Naski from './Page/NaskiPage/Naski';
+import AyollarKiyimi from './Page/AyolarKiyimlari/AyollarKiyimi'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/naski' element={<Naski />} />
+          <Route path='/ayollar-kiyimi' element={<AyollarKiyimi />} />
           
         </Routes>
   );
