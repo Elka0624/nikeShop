@@ -59,7 +59,7 @@ return (
                     </InputLabel>
                         <NativeSelect
                             onChange={event => handleChangeSelect(event.target.value)}
-                            defaultValue={Link.value}
+                            defaultValue={event => handleChangeSelect(event.target.value)}
                             inputProps={{
                                 name: 'age',
                                 id: 'uncontrolled-native',
